@@ -14,12 +14,12 @@
 
         <!-- Barra de navegacion-->
 
-        <nav class="header_Navigator">
+        <nav class="navigator">
 
-            <a href="#" class="Navigator_icon Navigator_icon--cursive"> Hostels Page</a>
-            <a href="#" class="Navigator_icon"> Home </a>
-            <a href="#" class="Navigator_icon"> About us</a>
-            <a href="#" class="Navigator_icon"> Contact</a>
+            <a href="#" class="navigator_icon navigator_icon--cursive"> Hostels Page</a>
+            <a href="#" class="navigator_icon"> Home </a>
+            <a href="#" class="navigator_icon"> About us</a>
+            <a href="#" class="navigator_icon"> Contact</a>
         </nav>
 
     </header>
@@ -33,52 +33,63 @@
 
     </div>
 
-    <main class="main_form">
+    <main class="main">
 
         <!--Formulario-->
 
-        <form action="hostelpage">
+        <form class="main_form" action="hostelpage">
 
-            <fieldset>
+            <fieldset class="fieldset">
 
-                <div      class="form_div-1">
+                <div  class="fieldset__div-1">
             
-                    <label class= "label" for="where"> Where do you want to go?</label>
+                    <label class= "fieldset__div-1__label" for="where"> Where do you want to go?</label>
+
                     <input type="text" name="where" placeholder="Thailand">
+
                 </div> 
                 
-                <div class="form_div-2">
-                    <label class= "label" for="when">When?</label>
+                <div class="fieldset__div-2">
 
-                    <span class="form_div-2-span">
+                    <label class= "fieldset__div-2__label" for="when">When?</label>
+
+                    <span class="fieldset__div-2__span">
                         
-                        <label class="span_label-2" for="when">From</label>
-                        <input class="label-2" type="date" name="when" placeholder="00/08/2020"> <br>
-                        <label for="when">to</label>
+                        <label class="fieldset__div-2__span__label__2" for="when">From</label>
 
-                        <input class="label-2" type="date" name="when" placeholder="00/08/2020">
+                        <input class="fieldset__div-2__span__input__2" type="date" name="when" placeholder="00/08/2020"> <br>
+
+                        <label class="fieldset__div-2__span__label__2" for="when">to</label>
+
+                        <input class="fieldset__div-2__span__input__2" type="date" name="when" placeholder="00/08/2020">
                    </span>
+
                 </div>
 
-                <div class="form_div-3">
+                <div class="fieldset__div-3">
 
-                    <spam class="div-3_span">
-                        <label class= "label" for="people">How many people?</label>
+                    <spam class="fieldset__div-3__span">
+
+                        <label class= "fieldset__div-3__span__label" for="people">How many people?</label>
+
                     </spam>
 
                     <label for="people">Adults</label>
-                    <input  class="span_label-2" type="number" name="people" placeholder="0"> 
+
+                    <input  class="fieldset____div-3__input-3" type="number" name="people" placeholder="0"> 
+
                     <label for="people">children</label>
-                    <input class="span_label-2" type="number" name="people" placeholder="0">
+
+                    <input class="fieldset__div-3__input-3" type="number" name="people" placeholder="0">
 
                 </div>
 
 
-                <button class="form_button">
+                <button class="fieldset__button">
                     Search
                 </button>
 
-        </fieldset>
+            </fieldset>
 
 
         </form>
