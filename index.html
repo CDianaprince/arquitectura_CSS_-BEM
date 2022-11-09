@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheets" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
 <body>
 
@@ -33,31 +33,52 @@
 
     </div>
 
-    <main class="form">
+    <main class="main_form">
 
         <!--Formulario-->
 
         <form action="hostelpage">
+
+            <fieldset>
+
+                <div      class="form_div-1">
             
-            <label for="where"> Where do you want to go?</label>
-            <input type="text" name="where" placeholder="Thailand"><br>
-            
+                    <label class= "label" for="where"> Where do you want to go?</label>
+                    <input type="text" name="where" placeholder="Thailand">
+                </div> 
+                
+                <div class="form_div-2">
+                    <label class= "label" for="when">When?</label>
 
-            <label for="when">When?</label><br>
+                    <span class="form_div-2-span">
+                        
+                        <label class="span_label-2" for="when">From</label>
+                        <input class="label-2" type="date" name="when" placeholder="00/08/2020"> <br>
+                        <label for="when">to</label>
 
-            <label for="when">From</label><input type="date" name="when" placeholder="00/08/2020"> <br>
-            <label for="when">to</label>
-            <input type="date" name="when" placeholder="00/08/2020"> <br>
+                        <input class="label-2" type="date" name="when" placeholder="00/08/2020">
+                   </span>
+                </div>
 
-            <label for="people">How many people?</label><br>
+                <div class="form_div-3">
 
-            <label for="people">Adults</label><input type="number" name="people" placeholder="0"> 
-            <label for="people">children</label><input type="number" name="people" placeholder="0"><br>
+                    <spam class="div-3_span">
+                        <label class= "label" for="people">How many people?</label>
+                    </spam>
+
+                    <label for="people">Adults</label>
+                    <input  class="span_label-2" type="number" name="people" placeholder="0"> 
+                    <label for="people">children</label>
+                    <input class="span_label-2" type="number" name="people" placeholder="0">
+
+                </div>
 
 
-            <button>
-                Search
-            </button>
+                <button class="form_button">
+                    Search
+                </button>
+
+        </fieldset>
 
 
         </form>
