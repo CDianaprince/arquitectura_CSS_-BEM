@@ -8,21 +8,21 @@
     padding: 1%;
 }
 
-.header_Navigator{
+.navigator{
    display: flex;
    justify-content: space-around;
    background-color: cadetblue;
    padding: 1%;
 }
 
-.Navigator_icon{
+.navigator_icon{
     text-decoration: none;
     color: rgb(46, 84, 71);
     font-weight: 700;
     font-size: x-large;
 }
 
-.Navigator_icon--cursive{
+.navigator_icon--cursive{
     font-style:italic;
 }
 
@@ -33,13 +33,13 @@
     line-height: 180%;
 }
 
-.title h1{
+.title__h1{
     color: rgb(46, 84, 71);
     font-weight: 700;
     font-style:italic;  
 }
 
-.main_form{
+.main{
     padding: 8%;
     background-color: antiquewhite;
     padding-left: 18%;
@@ -47,26 +47,25 @@
 }
 
 
-fieldset{
+.fieldset{
     width: 80%;
-    padding: 5%;  
-   
+    padding: 5%;   
 }
 
 
-.form_div-1{
+.fieldset__div-1{
     display: flex;
     justify-content: space-around;
     padding: 3%;
 }
 
-.form_div-2{
+.fieldset__div-2{
     display: flex;
 gap: 5%;
 justify-content: center;
 padding: 3%;}
 
-.form_div-2-span{
+.fieldset__div-2__span{
     display: flex;
     flex-direction: column;
     padding-left: 45%;
@@ -74,11 +73,11 @@ padding: 3%;}
    
 }
 
-.span_label-2{
+.fieldset__div-2__span__label__2{
  width: 5%;
 }
 
-.form_div-3{
+.fieldset__div-3{
     display: flex;
     gap: 2% ;
     justify-content: center;
@@ -86,11 +85,11 @@ padding: 3%;}
     padding-bottom: 5%;
 }
 
-.div-3_span{
+.fieldset__div-3__span{
     padding-right: 25%;
 }
 
-.form_button{
+.fieldset__button{
     text-align: center;
     padding:1%;
     width: 15%;
